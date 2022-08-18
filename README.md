@@ -5,12 +5,11 @@ a description
 todo
 
 ## lint
-Install dev-dependencies
 ```
-pip install -r requirements-dev.txt
+pylint $(git ls-files '*.py')
 ```
 
-Run lint script
+## test
 ```
-./lint.sh
+pytest
 ```
