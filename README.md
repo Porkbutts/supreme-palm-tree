@@ -1,5 +1,5 @@
 # supreme-palm-tree
-a description
+airbnb clone test project
 
 ## install
 Install `virtualenv` if you haven't already
@@ -28,5 +28,3 @@ pylint $(git ls-files '*.py')
 ```
 pytest
 ```
-
-What up what up what up
