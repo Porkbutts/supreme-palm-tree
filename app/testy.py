@@ -1,2 +1,5 @@
+"""Module docstring"""
+
 def hello():
-  print("fck")
+    """hello"""
+    print("fck")
