@@ -17,3 +17,9 @@ async def read_root():
 async def read_item(item_id: int, query: Union[str, None] = None):
     """read_item"""
     return {"item_id": item_id, "q": query}
+
+@app.get("/zee")
+async def read_zee():
+    """read_zee"""
+    return {"What": "Up"}
+    
