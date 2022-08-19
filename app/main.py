@@ -22,3 +22,4 @@ async def read_item(item_id: int, query: Union[str, None] = None):
 async def read_zee():
     """read_zee"""
     return {"What": "Up"}
+    
