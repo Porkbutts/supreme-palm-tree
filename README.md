@@ -14,6 +14,11 @@ source ./venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## run
+```
+uvicorn app.main:app --reload
+```
+
 ## lint
 ```
 pylint $(git ls-files '*.py')
