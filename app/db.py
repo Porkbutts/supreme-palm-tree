@@ -4,7 +4,7 @@ import os
 from pymongo import MongoClient
 
 
-def client(username : str =None, password : str=None, base_uri : str=None) -> MongoClient:
+def client(username: str = None, password: str = None, base_uri: str = None) -> MongoClient:
     """Creates the mongo client from the provided params.
 
     Args:
