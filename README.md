@@ -13,7 +13,7 @@ pip3 install virtualenv
 Then install the requirements
 
 ```bash
-virtualenv ./venv -p /usr/local/bin/python3
+virtualenv ./venv -p $(which python3)
 source ./venv/bin/activate
 pip install -r requirements.txt
 ```
